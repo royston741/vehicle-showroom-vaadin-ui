@@ -1,1 +1,20 @@
 @import url('./main-layout.css');
+
+*{
+    list-style:none;
+}
+
+body{
+    background-color:Gainsboro
+}
+
+.form_container{
+    width:350px;
+    background-color:white;
+    padding:40px;
+}
+
+.form_footer{
+    display:flex;
+    justify-content:space-between
+}

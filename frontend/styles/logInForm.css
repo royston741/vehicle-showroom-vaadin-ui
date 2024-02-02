@@ -1,0 +1,13 @@
+.container{
+    background-color:Gainsboro
+}
+
+.form_box{
+    background-color:white
+    padding:10px;
+    border-radius:4px
+}
+
+.log_in_err{
+    background-color:red""
+}

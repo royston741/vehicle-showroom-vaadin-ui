@@ -1,0 +1,37 @@
+.vehicle_list{
+    display: flex;
+    flex-wrap : wrap;
+    height : 86vh;
+    overflow-y:auto
+}
+
+.vehicle_card{
+    background-color: white;
+      width: 200px;
+      margin: 10px;
+      border-radius: 4px;
+      padding: 10px;
+      height: 370px;
+      cursor: pointer;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.vehicle_img_container{
+   overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 250px;
+}
+
+.vehicle_rating{
+    font-size:1em;
+    display: flex;
+    align-items: center;
+}
+
+.home_view{
+    display: grid;
+    grid-template-columns:1fr 4fr
+}
